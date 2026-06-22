@@ -6,6 +6,14 @@ export interface LinkItem {
   image: string;
 }
 
+export interface MemberItem {
+  name: string;
+  role: string;
+  contact: string;
+  link: string;
+  photo: string;
+}
+
 export const links: LinkItem[] = [
   {
     label: "Struct-Note",
@@ -17,8 +25,28 @@ export const links: LinkItem[] = [
     url: "https://catsball.github.io/cat-tower",
     image: "",
   },
-  // { label: "예시 2", url: "https://example.com", image: "https://picsum.photos/seed/2/600/600" },
-  // { label: "예시 3", url: "https://example.com", image: "https://picsum.photos/seed/3/600/600" },
-  // { label: "예시 4", url: "https://example.com", image: "https://picsum.photos/seed/4/600/600" },
-  // { label: "예시 5", url: "https://example.com", image: "https://picsum.photos/seed/5/600/600" },
+];
+
+export const members: MemberItem[] = [
+  {
+    name: "최인아",
+    role: "Producer, Designer",
+    contact: "",
+    link: "",
+    photo: "",
+  },
+  {
+    name: "신동진",
+    role: "Engineer, Developer",
+    contact: "@sine_dz",
+    link: "https://instagram.com/sine_dz",
+    photo: "",
+  },
+  {
+    name: "용맹한냥냥이",
+    role: "Designer",
+    contact: "@the_great_double_nyang",
+    link: "https://instagram.com/the_great_double_nyang",
+    photo: "",
+  },
 ];
