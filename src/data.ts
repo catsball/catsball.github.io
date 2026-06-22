@@ -12,6 +12,11 @@ export const links: LinkItem[] = [
     url: "https://catsball.github.io/struct-note",
     image: samplePng,
   },
+  {
+    label: "Cat Tower",
+    url: "https://catsball.github.io/cat-tower",
+    image: "",
+  },
   // { label: "예시 2", url: "https://example.com", image: "https://picsum.photos/seed/2/600/600" },
   // { label: "예시 3", url: "https://example.com", image: "https://picsum.photos/seed/3/600/600" },
   // { label: "예시 4", url: "https://example.com", image: "https://picsum.photos/seed/4/600/600" },
