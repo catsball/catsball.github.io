@@ -4,6 +4,7 @@ export interface LinkItem {
   label: string;
   url: string;
   image: string;
+  description: string;
 }
 
 export interface MemberItem {
@@ -19,11 +20,13 @@ export const links: LinkItem[] = [
     label: "Struct-Note",
     url: "https://catsball.github.io/struct-note",
     image: samplePng,
+    description: "교육용 2D 구조해석 프로그램",
   },
   {
     label: "Cat Tower",
     url: "https://catsball.github.io/cat-tower",
     image: "",
+    description: "Diagram + Flowchart + Scheduler",
   },
 ];
 
@@ -44,9 +47,16 @@ export const members: MemberItem[] = [
   },
   {
     name: "용맹한냥냥이",
-    role: "Designer",
+    role: "Illustrator",
     contact: "@the_great_double_nyang",
     link: "https://instagram.com/the_great_double_nyang",
+    photo: "",
+  },
+  {
+    name: "고란이",
+    role: "Designer",
+    contact: "",
+    link: "",
     photo: "",
   },
 ];
