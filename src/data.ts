@@ -1,4 +1,7 @@
 import samplePng from "./sample.png";
+import profileChoiIna from "./assets/profile/profile_choi_ina.jpg";
+import profileShinDongjin from "./assets/profile/profile_shin_dongjin.jpg";
+import profileTheGreatDoubleNyang from "./assets/profile/profile_the_greate_double_nyang.jpg";
 
 export interface LinkItem {
   label: string;
@@ -36,21 +39,21 @@ export const members: MemberItem[] = [
     role: "Producer, Designer",
     contact: "",
     link: "https://instagram.com/olnolr",
-    photo: "",
+    photo: profileChoiIna,
   },
   {
     name: "신동진",
     role: "Engineer, Developer",
-    contact: "",
+    contact: "djshin319@gmail.com",
     link: "https://instagram.com/sine_dz",
-    photo: "",
+    photo: profileShinDongjin,
   },
   {
     name: "용맹한냥냥이",
     role: "Illustrator",
     contact: "",
     link: "https://instagram.com/the_great_double_nyang",
-    photo: "",
+    photo: profileTheGreatDoubleNyang,
   },
   {
     name: "고란이",
