@@ -26,6 +26,12 @@ export const links: LinkItem[] = [
     description: "교육용 2D 구조해석 프로그램",
   },
   {
+    label: "Color Picker",
+    url: "https://catsball.github.io/color-picker",
+    image: samplePng,
+    description: "무료 색상/색조합 실험 사이트",
+  },
+  {
     label: "Cat Tower",
     url: "https://catsball.github.io/cat-tower",
     image: "",
